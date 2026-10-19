@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="980" viewBox="0 0 980 980" role="img" aria-label="Layers">
+  <title>Layers</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="980" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2A333F"/>
+      <stop offset="1" stop-color="#101720"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#000000" flood-opacity="0.75"/>
+    </filter>
+  </defs>
+
+  <rect width="980" height="980" rx="102" fill="url(#bg)"/>
+
+  <g fill="#ffffff" filter="url(#shadow)">
+    <path d="M465.20 169.98Q489.98 157.58 514.77 169.98L830.58 327.89Q855.92 340.56 830.58 353.23L514.77 511.14Q489.98 523.53 465.20 511.14L149.39 353.23Q124.05 340.56 149.39 327.89Z"/>
+    <path d="M148.82 491.62Q124.44 503.97 148.88 516.19L464.99 674.25Q489.98 686.74 514.98 674.25L831.08 516.19Q855.53 503.97 831.15 491.62L800.28 475.97Q774.42 462.87 748.49 475.83L514.79 592.68Q489.98 605.09 465.17 592.68L231.47 475.83Q205.55 462.87 179.69 475.97Z"/>
+    <path d="M148.82 654.99Q124.44 667.34 148.88 679.56L464.99 837.62Q489.98 850.11 514.98 837.62L831.08 679.56Q855.53 667.34 831.15 654.99L800.28 639.35Q774.42 626.24 748.49 639.21L514.79 756.06Q489.98 768.46 465.17 756.06L231.47 639.21Q205.55 626.24 179.69 639.35Z"/>
+  </g>
+</svg>
